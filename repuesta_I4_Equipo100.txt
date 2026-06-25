@@ -1,0 +1,8 @@
+ALFA: Lautaro Sismonda
+GAMMA: Sebastián Fernandes
+BETA: Denise Vazquez
+
+A - testing : RED
+B - DESARROLLO:  YELLOW
+C - MAIN: YELLOW
+D - El de ALFA
