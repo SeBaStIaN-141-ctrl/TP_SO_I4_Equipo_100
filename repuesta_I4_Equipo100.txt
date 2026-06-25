@@ -6,3 +6,8 @@ A - testing : RED
 B - DESARROLLO:  YELLOW
 C - MAIN: YELLOW
 D - El de ALFA
+E - Solo ALFA pudo hacer el push porque al hacerlo todos al mismo tiempo, tomó primero el push de ALFA y los otros 2 usuarios requerían hacer un git pull para estar actualizados, sino no los deja.
+F - No se pudo hacer el push porque los repositorios de BETA Y GAMMA estaban desactualizados.
+G - Para que no suceda esto, el equipo debe tener una buena comunicación y avisar de cualquier cambio que se haga para que su compañero que sigue pueda hacer un git pull antes de realizar cualquier cambio en el repositorio. De esta manera, no va a tirar error cuando quiera hacer el push porque ya va a tener todo actualizado.
+H - si usan push -f se fuerza la actualización y se pisa todo lo anterior. O sea, el push que hizo Alfa es pisado por el de Beta y el de Beta se pisa con el de Gamma.
+I - Primero, los integrantes deben avisarse de los cambios que vayan a hacer dentro de DESARROLLO para no pisarse o que directamente no deje hacer un push por tener el repositorio desactualizado. Después, por cada cambio de un compañero se hace un pull, y finalmente se hace el merge con todos los cambios a DESARROLLO.
